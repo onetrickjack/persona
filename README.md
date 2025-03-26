@@ -8,4 +8,10 @@ I got through it thanks to some sage advice from a seasoned waitress while worki
 
 While I've found great success as a generalist, I also know the value and necessity of specialization. Any Organisation needs a healthy balance of both, and each individual must find their own middle way between them. So whats my One Trick? I strive to first, find the best path between tables, second, surround myself with great people, and third, equip ourselves with only the essentials.
 
-If you need a generalist, or a specialist in Information Systems, connect with me on LinkedIn. I'd love to chat.
+If you need a generalist, or a specialist in Information Systems, connect with me on [LinkedIn](www.linkedin.com/in/nickkpope). I'd love to chat.
+
+# Forward
+
+If it isn't immediately apparent this is a GitHub blog. One day I'll run a website, but that is not this day.
+
+Here is a simple [Wardley Map Template](_templates/wardley_map_and_value_chain.drawio.html) to see if github.io and draw.io are friends.
