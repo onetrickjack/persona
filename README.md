@@ -14,4 +14,4 @@ If you need a generalist, or a specialist in Information Systems, connect with m
 
 If it isn't immediately apparent this is a GitHub blog. One day I'll run a website, but that is not this day.
 
-Here is a simple [Wardley Map Template](_templates/wardley_map_and_value_chain.drawio.html) to see if github.io and draw.io are friends.
+Here is a simple [Wardley Map Template](https://onetrickjack.github.io/persona/_templates/wardley_map_and_value_chain.drawio.html) to see if github.io and draw.io are friends.
