@@ -101,6 +101,27 @@ You can check out my [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/det
   * Studying
     * Data Science for Business
 
+* Filmmaking
+  * Picture Editing
+  * Motion Graphics
+
+* Drafting
+  * Conceptual
+  * Mechanical
+  * Architectural
+
+* BBQ'ing
+  * UDS Smoker
+  * Boston Butt Pulled Pork
+  * Spicy Mango Ribs
+  * Rib-eye Steak
+  * Portobello Mushrooms
+
+* Family Barista
+  * Grinders Crema Beans
+  * Breville Barista Express
+  * 15g/30s/60ml Method
+
 * Woodworking
   * Dewalt Jobsite Table Saw
   * Tasmanian Oak
@@ -110,27 +131,15 @@ You can check out my [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/det
     * Gravity Powered Cylindrical Dial/Movement
     * Music Stand
 
-* BBQ'ing
-  * UDS Smoker
-  * Boston Butt Pulled Pork
-  * Spicy Mango Ribs
-  * Rib-eye Steak
-  * Portobello Mushrooms
-
 * Restoration
   * Woodworking Tools
   * Hi-Fi Components
 
-* Family Barista
-  * Grinders Crema Beans
-  * Breville Barista Express
-  * 15g/30s/60ml Method
-
-Astrophotography
-* Canon T3I
-* Celestron Spotting Scope
-* Planning:
-  * [GPE](https://en.wikipedia.org/wiki/Gravitational_energy) powered, hydraulic DIY equatorial mount
+*Astrophotography
+  * Canon T3I
+  * Celestron Spotting Scope
+  * Planning:
+    * [GPE](https://en.wikipedia.org/wiki/Gravitational_energy) powered, hydraulic DIY equatorial mount
 
 * Music
   * Genres
@@ -144,6 +153,6 @@ Astrophotography
   * Instruments
     * Ukulele
     * Bass
-    * (Open call for others. 4 strings max apparently)
+    * (Open call for others. 4 strings max)
 
 [Go Back](https://onetrickjack.github.io/persona/)
