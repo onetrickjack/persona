@@ -27,7 +27,7 @@ If it isn't immediately apparent this is a bog-standard GitHub blog. One day I'l
 
 ## Skills
 
-You can check out a fairly chaotic list-of-lists of my sweet [skills](https://onetrickjack.github.io/persona/Skills.md). It isn't likely obvious in this format, but I try to be T shaped where possible. If you don't know what T shaped is, go read [Range](https://www.google.com/search?&q=range%20book). It's a great book and you should read it, or just start the [Wikipedia page](https://en.wikipedia.org/wiki/Range:_Why_Generalists_Triumph_in_a_Specialized_World) if you're busy.
+You can check out a fairly chaotic list-of-lists of my sweet [skills](./Skills.md). It isn't likely obvious in this format, but I try to be T shaped where possible. If you don't know what T shaped is, go read [Range](https://www.google.com/search?&q=range%20book). It's a great book and you should read it, or just start the [Wikipedia page](https://en.wikipedia.org/wiki/Range:_Why_Generalists_Triumph_in_a_Specialized_World) if you're busy.
 
 ## Topics
 
