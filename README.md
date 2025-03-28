@@ -10,8 +10,33 @@ While I've found great success as a generalist, I also know the value and necess
 
 If you need a generalist, or a specialist in Information Systems, connect with me on [LinkedIn](www.linkedin.com/in/nickkpope). I'd love to chat.
 
-# Forward
 
-If it isn't immediately apparent this is a GitHub blog. One day I'll run a website, but that is not this day.
+# Quick Links
 
-Here is a simple [Wardley Map Template](https://onetrickjack.github.io/persona/_templates/wardley_map_and_value_chain.drawio.html) to see if github.io and draw.io are friends.
+| Resume |
+|-|
+| [Markdown](./resume_2025.md) |
+| [PDF (Dark)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf) |
+| [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf) |
+
+
+# Portfolio
+
+If it isn't immediately apparent this is a bog-standard GitHub blog. One day I'll write and run a proper website, but that day is not this day. This will look pretty ugly for a while as I convert, redact, and update my work.
+
+
+## Skills
+
+You can check out a fairly chaotic list-of-lists of my sweet [skills](https://onetrickjack.github.io/persona/Skills.md). It isn't likely obvious in this format, but I try to be T shaped where possible. If you don't know what T shaped is, go read [Range](https://www.google.com/search?&q=range%20book). It's a great book and you should read it, or just start the [Wikipedia page](https://en.wikipedia.org/wiki/Range:_Why_Generalists_Triumph_in_a_Specialized_World) if you're busy.
+
+## Topics
+
+For now I will simply list the Topics roughly ordered by what I consider to be foundational parts of my professional philosophy.
+
+* [Design](https://onetrickjack.github.io/persona/Topics/Design.md)
+* [Strategy](https://onetrickjack.github.io/persona/Strategy.md)
+* [System Design](https://onetrickjack.github.io/persona/System_Design.md)
+
+
+
+
