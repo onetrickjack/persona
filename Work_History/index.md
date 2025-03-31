@@ -49,7 +49,7 @@ The Technicolor Closure came suddenly and without warning. I am now in job hunti
 
 <p/>
 
-Worked on product [Strategies](/Topics/Strategy.md#managing-model-hierarchy-manager-management) for a major Pipeline overhaul from a static world-view to a more dynamic, just-in-time resolved view.
+Worked on product [Strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul from a static world-view to a more dynamic, just-in-time resolved view.
 
 ## 2022
 
