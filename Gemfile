@@ -15,7 +15,6 @@ gem "jekyll-theme-tactile", "~> 0.2"
 gem "github-pages", "~> 232", group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
   gem "jekyll-rdf", "~> 3.2"
 end
 
