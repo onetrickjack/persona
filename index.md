@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Nick Pope
+rdf_prefix_path: _data/prefixes.sparql
 ---
 
 # Introduction
@@ -24,9 +25,35 @@ If it isn't immediately apparent this is a bog-standard GitHub blog. One day I'l
 |:-|-|-|
 | [Webpage](./Work_History) | [Dunning-Kruger Map](./Skills.md#dunning-kruger-skills-map)| [Design](./Topics/Design.md) |
 | [PDF (Dark)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf) | [List-of-Lists](./Skills.md#list-of-lists-of-skills) | [System Architecture](./Topics/System_Design.md) |
-| [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_light.pdf) | [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/details/skills/) | [All](./Topics) |
+| [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_light.pdf) | [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/details/skills/) | [ICT<->VFX Terms](./Topics/Recruiters_Guide_to_Hiring_VFX_Engineers.md) |
 
 
+
+{% assign query = '
+SELECT *
+{
+    BIND (reso:Resume as ?type)
+    ?sub a ?type ;
+        rdfs:label ?label .
+}' %}
+{% assign resultset = query | sparql_query %}
+<ul>
+{% for result in resultset %}
+    {% for page in site.pages %}
+        {% if page.rdf.iri == result.sub.iri %}
+        <li>
+            <a href="{{ page.url | relative_url }}">{{ result.label }}</a>
+            <font size=1>a {{ result.type }}</font>
+        </li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>
+
+
+<ul>
+
+</ul>
 
 
 

@@ -2,142 +2,172 @@
 layout: page
 title: Nick Pope
 description: A historical accounting of my professional Life; with links!
+prefix: 'foaf: <http://xmlns.com/foaf/0.1/>'
 ---
 
 # Contact Details
 
 <p/>
 
-|     Name    | ABN |              Email               |        Phone        |
-|-------------|-----|----------------------------------|---------------------|
-|  Nick Pope  | 97372974826 | nickkpope+ghp@gmail.com  | +61 (0) 451 284 997 |
-
+| **[Name](#name)** | **[ABN](https://en.wikipedia.org/wiki/Australian_Business_Number)** | **[Email](#mbox)** | **Phone** |
+|-|-|-|-|
+| Nick Pope | 97372974826 | nickkpope+ghp@gmail.com  | +61 (0) 451 284 997 |
 
 <p/>
 
-| GitHub | Linked In |
-|:-|:-|
-[nickkpope](https://github.com/nickkpope) | [Nick Pope](https://www.linkedin.com/in/nickkpope) |
+| ![Icon_Github][] [GitHub](https://github.com)  | ![Icon_LinkedIn][] [Linked In](https://linkedin.com) | ![Icon_IMDB][] [IMDB](https://imdb.com) | ![Icon_Mastodon][] [Mastodon](https://mastodon.social) |
+|:-|:-|:-|:-|
+[nickkpope](https://github.com/nickkpope) | [nickkpope](https://www.linkedin.com/in/nickkpope) | [Nick Pope(I)](https://www.imdb.com/name/nm1775936/) | [nickkpope](https://mastodon.social/@nickkpope) |
 | [onetrickjack](https://github.com/onetrickjack) | |
 
 <p/>
 
-# Timeline
+I am currently looking for **Consulting**, **Full-Time**, **Part-Time**, or **Contract/Project Based** opportunities. I have a strong background in Software Development and Architecture with a passion for the whole design process culminating in **beautiful**, accessible, and functionally **human-centric** solutions.
+
+I also strive to be a [T shaped generalist](https://en.wikipedia.org/wiki/T-shaped_skills) who has a broad understanding of most fields and a specific skill-set for Information, Communication Systems. I've loved my time in VFX and would be happy working in that sector, but I also want to diversify by leaning into impactful industries and organisations.
+
+---
+
+# Professional Timeline
 
 <p/>
 
-## 2025
+## 2025/03
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|-|-|
-| 2025/03 | Laid Off |    Role: Job seeking | Fishing |
+<p/>
+
+| Event | **Attributions** | **Skills Acquired** |
+|-|-|-|
+| **Laid Off** |    Role: Opportunity Fisherman | Markdown |
+|              |                                | Jekyll   |
 
 <p/>
 
 The Technicolor Closure came suddenly and without warning. I am now in job hunting mode. Please reach out if my work history and skills are a good fit for your business, organisation, needs.
 
 
-## 2023
+## 2023/05
 
 <p/>
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2023/05 | Promoted | Brand: MPC                | System Design |
-|         |          |  Role: Software Architect | Politicking   |
-|         |          |                           | Strategy      |
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Promoted** |   Brand: MPC                | System Design |
+|              |    Dept: R&D                | Politicking   |
+|              |    Role: Software Architect | Strategy      |
+|              | Company: Technicolor Group  | DevOps        |
 
 <p/>
 
-Worked on product [Strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul from a static world-view to a more dynamic, just-in-time resolved view.
+Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul; we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
 
-## 2022
-
-<p/>
-
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2022/01 | Merger   | Brand: MPC              | Kubernetes |
-|         |          |  Dept: Core Engineering | Training   |
-|         |          |                         | Testing    |
+## 2022/01
 
 <p/>
 
-Helped stand up MPC pipeline and find short term solutions to provide access to tools for a schedule show. Wrote a testing plan and helped a rag-tag group of Junior Devs provide end-user testing and feedback to teams in order to expedite a stable deployment of the MPC pipe.
-
-
-## 2020
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Merger** |     Brand: MPC              | Kubernetes |
+|            |      Dept: Core Engineering | Training   |
+|            | Company: Technicolor Group  | Testing    |
 
 <p/>
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2022/01 | Merger   | Brand: Mr X               | Devops                    |
-|         |          |  Dept: R&D                | Semantic Web (RDF)        |
-|         |          |  Role: Lead Software Dev. | Functional Programming    |
+Helped stand up the MPC pipeline in Adelaide and find short term solutions to provide access to tools for a running show. Wrote a testing plan and helped a rag-tag group of Junior Devs provide end-user testing and feedback to teams in order to expedite a stable deployment of the MPC pipe.
+
+
+## 2020/01
+
+<p/>
+
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Merger** |   Brand: Mr X               | DevOps                    |
+|            |    Dept: R&D (Software)     | Semantic Web (RDF)        |
+|            |    Role: Lead Software Dev. | Functional Programming    |
+|            | Company: Technicolor Group  |                           |
+
+<p/>
 
 Retrofit the devops workflows for software deployment to improve workflows and improve system reliability. Helped address (massive) gaps in documentation.
 
-## 2018
+## 2018/12
 
 <p/>
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2018/12 | Brand Startup   | Brand: Mill Film          | Async tasking       |
-|         |                 |  Role: Lead Software Dev. | Software Management |
-|         |                 |                           | Product Management  |
-|         |                 |                           | Crisis Leadership   |
-
-Lead a team of 8+ to create a modern production pipeline. Worked with MPC teams to coordinate the development of shared components and ensuring delivery of the 3 concurrent shows in our first year.
-
-## 2017
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Brand Startup** | Brand: Mill Film          | Async tasking       |
+|                 |  Dept: R&D (Software)     | Software Management |
+|                 |  Role: Lead Software Dev. | Product Management  |
+|                 | Location: 🇦🇺 Australia     | Crisis Leadership   |
 
 <p/>
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2017/03 | Promoted   | Brand: MPC                | Agile/Scrum        |
-|         |            |  Role: Lead Software Dev. | Leadership         |
+Lead a team of 8+ to create a modern production pipeline from Core Components of the MPC pipeline. Worked with MPC teams to coordinate the development of shared components and ensuring delivery of the 3 concurrent shows in our first year.
+
+## 2017/03
+
+<p/>
+
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Promoted** | Brand: MPC                | Agile/Scrum         |
+|              |  Dept: R&D (Software)     | Software Management |
+|              |  Role: Lead Software Dev. | Leadership          |
+
+<p/>
 
 Lead a team of 6 working on high-scale show support and dev. The site’s 1,200 artists worked on as many as 15 concurrent shows in collaboration with other 3 MPC sites and external VFX vendors.
 
-## 2016
+## 2016/09
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2016/09 | Promoted   | Brand: MPC                  | High-Scale Production |
-|         |            |  Role: Senior Software Dev. | Stakeholder Trust     |
-|         |            |Location: 🇨🇦 Montreal      | Leadership            |
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Promoted** | Brand: MPC                  | High-Scale Production |
+|              |  Dept: R&D (Software)       | Leadership            |
+|              |  Role: Senior Software Dev. | Stakeholder Trust     |
+|              |Location: 🇨🇦 Montreal      | Devops                |
 
-Moved to Montreal to provide mentoring for junior members of the Show Team and build relationships with the CG Supervisors on the many, many shows done concurrently.
+<p/>
 
-## 2014
+I moved to Montreal for a Senior position and lead a show-specific development team. I loved providing mentoring for junior members of the Team and building relationships with the CG Supervisors on the many, many shows done concurrently in that site.
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2014/09 | Hired   | Brand: MPC           | Qt                       |
-|         |         |  Role: Software Dev. | Python                   |
-|         |         | Location: 🇬🇧 London| Asset Management Systems |
+## 2014/09
 
-Joined the pipeline team to work on the Academy Award winning film: The Jungle Book. We worked like hell to help artists get massive environments down to lighting by whatever means necessary.
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Hired** | Brand: MPC            | Qt                       |
+|           |  Dept: R&D (Software) | Team Building            |
+|           |  Role: Software Dev.  | Python                   |
+|           | Location: 🇬🇧 London | Asset Management Systems |
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2014/07 | Graduated   | University: 🇺🇲 Brigham Young University    |
-|         |             |   Minor: 🎞️ Film Theory and Practice |
-|         |             |Emphasis: 🏃 Animation                |
+<p/>
 
-I joined BYU to become an artist with my head in the sky and my feet on the ground. I then learned to wield my creativity and design experience on software application development.
+I joined the Pipeline Team (Go team Spirits!) to work on the Academy Award winning film: The Jungle Book. We worked like hell to help artists get massive environments down to lighting by whatever means necessary.
 
-## 2011
+## 2014/07
 
-| Date | Event | Attributions | Skills Acquired |
-|-|-|:-|:-|
-| 2014/07 | Hiried   | Company Motion Pictures Studio  | MacOS Development |
-|         |             |   Role: Pipeline Developer   | NoSQL Databases   |
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Graduated** | University: 🇺🇲 Brigham Young University    |
+|               |   Minor: 🎞️  Film Theory and Practice        |
+|               |Emphasis: 🏃 Animation                        |
 
-Developed the full production pipeline scaling up an order of magnitude from 3 artists to 30.
+<p/>
+
+I joined BYU to become an artist with my head in the sky and my feet on the ground. I then learned to wield my creativity and design experience for software application development.
+
+## 2011/07
+
+| Event | **Attributions** | **Skills Acquired** |
+|-|:-|:-|
+| **Hired** | Company Motion Pictures Studio  | MacOS Development |
+|           |   Role: Pipeline Developer   | NoSQL Databases   |
+
+<p/>
+
+Developed the full production pipeline from the vision of our CG Supervisor. We scaled up an order of magnitude from 3 artists to 30 and needed additional tracking and organization of tasks and creative works.
 
 [Icon_LinkedIn]: <data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZElEQVR4XtWUQQrAMBAC8/J8LI9rk0NBXLMNMVAqeFAG2dOWMlTbZfvY0ONQOMaACuCK/zFmG4O6DDNre2ym78feuO2xaa8AhDinvQIQ4pz2CkCIc9orACHOac+Q5VA4PvYgu25ukKrSJb+yGQAAAABJRU5ErkJggg==>
 

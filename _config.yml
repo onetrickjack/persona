@@ -30,7 +30,6 @@ description: >- # this means to ignore newlines until "baseurl:"
 host: fwnixos
 baseurl: "/persona" # the subpath of your site, e.g. /blog
 url: "onetrickjack.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-
 # twitter_username: jekyllrb
 github_username:  nickkpope
 
@@ -38,6 +37,23 @@ github_username:  nickkpope
 theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
+  # - jekyll-rdf
+
+jekyll_rdf:
+  path: "_data/graph.ttl"
+  language: "en"
+  default_template: "rdf_index.html"
+  baseiri: "https://onetrickjack.github.io/persona/"
+  # restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . FILTER regex(str(?resourceUri), 'https://onetrickjack.github.io/')  }"
+  # restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . }"
+  class_template_mappings:
+    "https://onetrickjack.github.io/persona/resume#Resume": "Resume.html"
+    "http://xmlns.com/foaf/0.1/Person": "Person.html"
+    "https://www.w3.org/ns/activitystreams#IntransitiveActivity": "Event.html"
+  instance_template_mappings:
+    "https://onetrickjack.github.io/persona/resumes/": "rdf_index.html"
+  # instance_template_mappings:
+  #   "https://onetrickjack.github.io/persona/resumes/NickPope_Architecture": "Resume.html"
 
 # Exclude from processing.
 # The following items will not be processed, by default.

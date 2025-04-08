@@ -1,0 +1,150 @@
+---
+layout: default
+title: Nick Pope
+description: Resume / CV
+rdf_prefix_path: _data/prefixes.sparql
+---
+<!-- FIXME: Only support prop inheritance one level deep -->
+{% assign resume = page.rdf %}
+{% assign domain = resume | rdf_property: "reso:domain" %}
+{% assign base = resume | rdf_property: "rdfs:subClassOf" %}
+{% assign person = base | rdf_property: "reso:person" %}
+<!-- FIXME: Get the person page.. gotta be a better way to do this. Is there a reverse mapping? -->
+{% for page in site.pages %}
+  {% if page.rdf.iri == person.iri %}
+    {% assign pi_url = page.url %}
+  {% endif %}
+{% endfor %}
+<p>
+<a href="{{ '/' | relative_url }}">Home</a> / <a href="{{ page.url | relative_url }}">{{ page | rdf_property: "rdfs:label" }}</a>
+</p>
+<!-- <pre> -->
+<!-- Variables: -->
+<!--   resume: {{ resume }} -->
+<!--   base: {{ base }} -->
+<!--   person: {{ person }} -->
+<!--   domain: {{ domain }} -->
+<!--   {{ pi_url }} -->
+<!-- </pre> -->
+{% assign query = '
+SELECT *
+{
+    ?resourceUri a foaf:Person ;
+      a ?type ;
+      schema:identifier ?abn ;
+      foaf:nick ?nick ;
+      foaf:mbox ?email ;
+      foaf:phone ?phone ;
+      foaf:name ?full_name .
+}' %}
+{% assign pi =  person | sparql_query: query | first %}
+<!-- Contact Details -->
+<table>
+  <tr>
+    <th>Name </th>
+    <th>ABN</th>
+    <th>Email</th>
+    <th>Phone</th>
+  </tr>
+  <tr>
+    <td itemtype="{{ "foaf:name" | rdf_get }}">
+      <a href="{{ pi_url | relative_url }}">{{ pi.full_name }}</a>
+    </td>
+    <td itemtype="{{ "schema:identifier" | rdf_get }}">{{ pi.abn }}</td>
+    <td itemtype="{{ "foaf:mbox" | rdf_get }}">
+      <a href="mailto:{{ pi.email }}">{{ pi.email }}</a>
+    </td>
+    <td itemtype="{{ "foaf:phone" | rdf_get }}">{{ pi.phone }}</td>
+  </tr>
+</table>
+<br/>
+<!-- Intro -->
+<h2>Introduction</h2>
+<!-- CBB: a custom rdf_iprop would do nicely here -->
+{% assign intro = resume | rdf_property: "reso:introduction" %}
+{% unless intro != nil %}
+  {% assign intro = base | rdf_property: "reso:introduction" %}
+{% endunless %}
+<p>
+  {{ intro | markdownify }}
+</p>
+
+<!-- Socials -->
+<!-- <h2>Professional Accounts</h2> -->
+{% assign query = '
+SELECT *
+{
+    ?social a otj:SocialAccount ;
+      foaf:username ?username ;
+      foaf:icon ?icon ;
+      rdfs:label ?label .
+}' %}
+<!-- Work History -->
+
+{% assign persons_activities_query = '
+SELECT *
+{
+  BIND(as:IntransitiveActivity as ?type)
+  ?sub as:actor ?resourceUri .
+}
+' %}
+{% assign persons_activities_rs =  person | sparql_query: persons_activities_query %}
+{% for activity_rs in persons_activities_rs %}
+  {% assign activity = activity_rs.sub %}
+  {% assign start_time = activity | rdf_property: "as:startTime" %}
+  {% assign end_time = activity | rdf_property: "as:endTime" %}
+  {% assign label = activity | rdf_property: "rdfs:label", nil, true | join: " / " %}
+  <h3 itemprop="{{ "as:startTime" | rdf_get }}">
+    {{ label }} : {{ start_time  }} - {{ end_time }}
+  </h3>
+  <h4></h4>
+  <br/>
+
+  <!-- Attributions -->
+  {% assign attrs = activity | rdf_property: "otj:attr", nil, true %}
+  <table>
+    <tr>
+      <th width="20%" rowspan="{{ attrs | size | plus: 1}}"><strong>Attributions</strong></th>
+    </tr>
+  {% for attr in attrs %}
+    <tr>
+      <td></td><td>{{ attr }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+  <br/>
+  <!-- Skills -->
+  {% assign skills = activity | rdf_property: "otj:skill", nil, true %}
+  <table>
+    <tr>
+      <th width="20%" rowspan="{{ skills | size | plus: 1 }}"><strong>Skills</strong></th>
+      <th></th>
+    </tr>
+  {% for skill in skills %}
+    <tr>
+      <td></td>
+      <td>{{ skill }}</td>
+    </tr>
+  {% endfor %}
+  </table>
+  <br/>
+  <p>
+  {% assign target_activity = activity | rdf_inverse_property: "rdfs:subClassOf" %}
+  {% if target_activity != nil %}
+    {% assign target_activity_domain = target_activity | rdf_property: "reso:domain" %}
+  {% endif %}
+  {% if target_activity_domain.iri != domain.iri %}
+    {% assign target_activity = activity %}
+  {% endif %}
+    {{ target_activity | rdf_property: "otj:blurb" | markdownify }}
+  </p>
+  <br/>
+  {% assign target_activity = nil %}
+  {% assign target_activity_domain = nil %}
+{% endfor %}
+<p>
+</p>
+<p>
+<a href="{{ '/' | relative_url }}">Go back</a>
+</p>
+

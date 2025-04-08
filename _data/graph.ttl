@@ -1,0 +1,297 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix  fam: <http://www.ifi.uio.no/INF3580/family#> .
+
+@prefix schema: <https://schema.org/> .
+@prefix inrupt: <https://id.inrupt.com/> .
+@prefix     as: <https://www.w3.org/ns/activitystreams#> .
+
+@prefix icons: <https://onetrickjack.github.io/persona/assets/icons/> .
+@prefix  reso: <https://onetrickjack.github.io/persona/resume#> .
+@prefix   res: <https://onetrickjack.github.io/persona/resumes/> .
+@prefix   otj: <https://onetrickjack.github.io/2025/04/ns#> .
+@prefix   evt: <https://onetrickjack.github.io/persona/events/> .
+@prefix peeps: <https://onetrickjack.github.io/persona/peeps/> .
+
+################## People #######################
+
+peeps:Nick_Pope a foaf:Person ;
+  schema:identifier 97372974826 ;
+  otj:webId inrupt:nickkpope ;
+  rdfs:label "Nick Pope" ;
+  foaf:name "Nicholas Pope" ;
+  foaf:mbox "nickkpope+ghp@gmail.com" ;
+  foaf:phone "+61 (0) 451 284 997" ;
+  otj:social <https://github.com/nickkpope>,
+             <https://www.linkedin.com/in/nickkpope> ;
+  foaf:nick "Nick" .
+
+################## Resumes ######################
+res:Nick_Pope_Generic a reso:Resume ;
+  rdfs:subClassOf res:Nick_Pope_Generic ;
+  rdfs:label "Generic Resume" ;
+  reso:domain reso:Information_Systems ;
+  reso:introduction '''
+I am currently looking for **Consulting**, **Full-Time**, **Part-Time**, or **Contract/Project Based** opportunities. I have a strong background in Software Development and Architecture with a passion for the whole design process culminating in **beautiful**, accessible, and functionally **human-centric** solutions.
+
+I also strive to be a [T shaped generalist](https://en.wikipedia.org/wiki/T-shaped_skills) who has a broad understanding of most fields and a specific skill-set for Information, Communication Systems. I've loved my time in VFX and would be happy working in that sector, but I also want to diversify by leaning into impactful industries and organisations.
+''' ;
+  reso:person peeps:Nick_Pope .
+
+res:Nick_Pope_Software_Architecture a reso:Resume ;
+  rdfs:subClassOf res:Nick_Pope_Generic ;
+  rdfs:label "Software Architecture Resume" ;
+  reso:domain reso:Software_Architecture .
+
+res:Nick_Pope_Product_Design a reso:Resume ;
+  rdfs:subClassOf res:Nick_Pope_Generic ;
+  rdfs:label "Product Design Resume" ;
+  reso:domain reso:Product_Design .
+
+res:Nick_Pope_Product_Manager a reso:Resume ;
+  rdfs:subClassOf res:Nick_Pope_Generic ;
+  rdfs:label "Product Management Resume" ;
+  reso:introduction '''
+I am currently looking for **Consulting**, **Full-Time**, **Part-Time**, or **Contract/Project Based** opportunities. I have a strong background in Software Development, Leadership, Management and Architecture with a passion for helping a bunch of great people work better together aligned towards a singular vision.
+
+I strive to be a [T shaped generalist](https://en.wikipedia.org/wiki/T-shaped_skills) who has a broad understanding of most fields and a specific skill-set for [Information, Communication Systems](/persona/Topics/Unifying_VFX_Terms_with_ICT). This gives me the ability to lead and manage with great empathy and talk to people in their own terms. This also facilitates a better understanding of user needs and an intuition for what solutions fit best.
+''' ;
+  reso:domain reso:Product_Management .
+
+res:Nick_Pope_Lead_Software_Developer a reso:Resume ;
+  rdfs:subClassOf res:Nick_Pope_Generic ;
+  rdfs:label "Lead Software Developer Resume" ;
+  reso:domain reso:Lead_Software_Developer .
+
+
+################ Work Events #####################
+
+
+evt:2025_03_04 a as:IntransitiveActivity ;
+  rdfs:label "🎣 Laid Off" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2025/03/04" ;
+  as:endTime "Present" ;
+  otj:attr "Role: Opportunity Fisherman" ,
+           "Location: 🇦🇺 Australia" ;
+  otj:skill "Markdown",
+             "Jekyll",
+             "RDF",
+             "Static Website Development" ;
+  otj:blurb '''
+The Technicolor Closure came suddenly and without warning. I am now in full-time job hunting mode in addition to my unofficial (but totally should be official) role of [Mom-Dad](/persona/Topics/Mom_Dad). I've head to learn how to multi-task, schedule a day of job hunting, cleaning, laundry and trying not to forget to get the dinner ready in time!
+
+Please reach out if my work history and skills are a good fit for your business, organisation, needs.
+''' .
+
+evt:2023_05_01 a as:IntransitiveActivity ;
+  rdfs:label "🔼 Promoted" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2023/05/01" ;
+  as:endTime "2025/03/04" ;
+  otj:attr "Role: Software Architect",
+           "Department: R&D Software",
+           "Brand: MPC",
+           "Company: Technicolor Group" ,
+           "Location: 🇦🇺 Australia" ;
+  otj:skill "<a href=\"/persona/Topics/Design\">Design</a>",
+            "<a href=\"/persona/Topics/System_Design\">System Design</a>",
+             "System Descaling",
+             "Politicking",
+             "Strategy",
+             "DevOps" ;
+  otj:blurb '''
+Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul; we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
+''' .
+
+evt:2023_05_01_Product_Management a otj:MoreSpecificActivity ;
+  rdfs:subClassOf evt:2023_05_01 ;
+  reso:domain reso:Product_Management ;
+  otj:blurb '''
+Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul; we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
+
+While the project was running we had a few changes in Head of Pipeline. While this lead to a few jarring pivots, I was lent on the most to keep the project continuity going. One of my favorite parts was doing the [Product Analysis and User Stories](/persona/projects/Nexus_User_Stories). It required a lot of effort to locate, understand, and compile the workflows for certain tools but was well worth it as it showed that most people didn't have the full picture.
+
+I learned that Product Management is all about maintaining [continuity](/persona/Topics/Continuity) in accordance to the Product's vision. If every person using or working on the Product is not perfectly aligned with that vision the project will fail in either delivery or unmet expectations. The better aligned folks are in the beginning the better (and cheaper!) the product will be.
+''' .
+
+evt:2022_01_01 a as:IntransitiveActivity ;
+rdfs:label "📉 Merger" ;
+as:actor peeps:Nick_Pope ;
+as:startTime "2022/01/01" ;
+as:endTime "2023/05/01" ;
+otj:attr "Role: Lead Software Developer",
+           "Department: R&D Core Engineering",
+           "Brand: MPC",
+           "Company: Technicolor Group" ,
+           "Location: 🇦🇺 Australia" ;
+otj:skill "Kubernetes",
+  "System Training",
+  "System Testing" ;
+otj:blurb '''
+Helped stand up the MPC pipeline in Adelaide and find short term solutions to provide access to tools for a running show. Wrote a testing plan and helped a rag-tag group of Junior Devs provide end-user testing and feedback to teams in order to expedite a stable deployment of the MPC pipe.''' .
+
+evt:2020_01_01 a as:IntransitiveActivity ;
+  rdfs:label "📉 Merger" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2020/01/01" ;
+  as:endTime "2022/01/01" ;
+  otj:attr "Role: Lead Software Developer",
+           "Department: R&D Software",
+           "Brand: Mr. X",
+           "Company: Technicolor Group" ,
+           "Location: 🇦🇺 Australia" ;
+  otj:skill "DevOps",
+             "Semantic Web (RDF)",
+             "Functional Programming" ;
+  otj:blurb '''
+Retrofit the devops workflows for software deployment to improve workflows and improve system reliability. Helped address (massive) gaps in documentation which lead to Semantic Web research.
+''' .
+
+evt:2018_12_01 a as:IntransitiveActivity ;
+  rdfs:label "🏗️ Brand Startup" ;
+  rdfs:label "✈️ Relocated" ;
+  as:actor peeps:Nick_Pope ;
+  as:endTime "2020/01/01" ;
+  as:startTime "2018/12/01" ;
+  otj:attr "Role: Lead Software Developer",
+           "Department: R&D Software",
+           "Brand: Mill Film",
+           "Company: Technicolor Group" ,
+           "Location: 🇦🇺 Australia" ;
+  otj:skill "Async Tasking",
+             "Global Coordination",
+             "Product Design",
+             "Product Management",
+             "Software Management" ;
+  otj:blurb '''
+Lead a team of 8+ to create a modern production pipeline from Core Components of the MPC pipeline. Worked with MPC teams to coordinate the development of shared components and ensuring delivery of the 3 concurrent shows in our first year.
+''' .
+
+evt:2018_12_01_Product_Management a otj:MoreSpecificActivity ;
+  rdfs:subClassOf evt:2018_12_01 ;
+  reso:domain reso:Product_Management ;
+  otj:blurb '''
+I lead a team of 8+ developers to create a modern production pipeline from Core Components of the MPC pipeline. I coordinated with MPC teams from around the world to aid in the development of shared components. This helped ensure the delivery of the 3 concurrent shows booked for our first year of operation. I had to wear many hats in this role including Product Management.
+
+I leveraged Confluence based Automation to capture User Needs and then wrote some connecting code to manage our Jira backlogs. Prioritization was key, but ensuring artists and Supervisors felt they were being heard was even more crucial. Most stories didn't get actioned, but many got put on the shelf and that was often enough to keep most people happy.
+''' .
+
+
+evt:2017_03_01 a as:IntransitiveActivity ;
+  rdfs:label "🔼 Promoted" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2017/03/01" ;
+  as:endTime "2018/12/01" ;
+  otj:attr "Role: Lead Software Developer",
+           "Department: R&D Software",
+           "Brand: MPC",
+           "Company: Technicolor Group" ,
+           "Location: 🇨🇦 Montreal" ;
+  otj:skill "Agile / Scrum",
+             "Leadership",
+             "Software Management" ;
+  otj:blurb '''
+Lead a team of 6 working on high-scale show support and dev. The site’s 1,200 artists worked on as many as 15 concurrent shows in collaboration with other 3 MPC sites and external VFX vendors.
+''' .
+
+evt:2016_09_01 a as:IntransitiveActivity ;
+  rdfs:label "🔼 Promoted" ;
+  rdfs:label "✈️ Relocated" ;
+  as:actor peeps:Nick_Pope ;
+  as:endTime "2017/03/01" ;
+  as:startTime "2016/09/01" ;
+  otj:attr "Role: Senior Software Developer",
+           "Department: R&D Software",
+           "Brand: MPC",
+           "Company: Technicolor Group" ,
+           "Location: 🇨🇦 Montreal" ;
+  otj:skill "High-Scale Production",
+             "Leadership",
+             "Stakeholder Trust",
+             "DevOps" ;
+  otj:blurb '''
+I moved to Montreal to take a Senior position and lead a show-specific development team. I loved providing mentoring for junior members of the Team and building relationships with the CG Supervisors on the many, many shows done concurrently in that site.
+''' .
+
+evt:2014_09_01 a as:IntransitiveActivity ;
+  rdfs:label "🏢 Hired" ;
+  rdfs:label "✈️ Relocated" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2014/09/01" ;
+  as:endTime "2016/09/01" ;
+  otj:attr "Role: Software Developer",
+           "Department: R&D Software",
+           "Brand: MPC",
+           "Company: Technicolor Group" ,
+           "Location: 🇬🇧 London" ;
+  otj:skill "Qt",
+             "Python",
+             "Team Building",
+             "Asset Management Systems" ;
+  otj:blurb '''
+I joined the Pipeline Team (Go team Spirits, woo!) to work on the Academy Award winning film: The Jungle Book. We worked like hell to help artists get massive environments down to lighting by whatever means necessary. My work was focused on the intersection between Scene Description and Asset Version updates which attempted to propagate good data and withhold bad data from moving down the Pipeline.
+''' .
+
+evt:2014_07_01 a as:IntransitiveActivity ;
+  rdfs:label "🎓 Graduated" ;
+  as:actor peeps:Nick_Pope ;
+  as:startTime "2009/08/01" ;
+  as:endTime "2014/07/01" ;
+  otj:attr "Major: Computer Science",
+           "Minor: 🎞️ Film Theory and Practice",
+           "Emphasis: 🏃 Animation",
+           "University: Brigham Young University" ,
+           "Location: 🇺🇲 USA" ;
+  otj:skill "Programming" ,
+             "Film Production" ,
+             "Film Theory" ,
+             "Motion Graphics" ;
+  otj:blurb '''
+I joined BYU to become an artist with my head in the sky and my feet on the ground. I then learned to wield my creativity and design experience for a more widely applicable domain of Software Development.
+''' .
+
+evt:2011_07_01 a as:IntransitiveActivity ;
+  rdfs:label "🏢 Hired" ;
+  as:actor peeps:Nick_Pope ;
+  as:endTime "2014/09/01" ;
+  as:startTime "2011/07/01" ;
+  otj:attr "Role: Pipeline Developer",
+           "Company: Motion Picture Studio" ,
+           "Location: 🇺🇲 USA" ;
+  otj:skill "MacOS App Development",
+             "Python",
+             "NoSQL Databases (MongoDB)",
+             "Asset Management Systems" ;
+  otj:blurb '''
+Developed the full production pipeline from the vision of our CG Supervisor. We scaled up an order of magnitude from 3 artists to 30 and needed additional tracking and organization of tasks and creative works.
+''' .
+
+# Social Accounts
+############## Social Accounts ###################
+<https://github.com/nickkpope> a otj:SocialAccount ;
+  rdfs:label "GitHub" ;
+  foaf:username "nickkpope" ;
+  foaf:icon icons:GitHub .
+
+
+# Social Accounts
+############## Social Accounts ###################
+<https://github.com/nickkpope> a otj:SocialAccount ;
+  rdfs:label "GitHub" ;
+  foaf:username "nickkpope" ;
+  foaf:icon icons:GitHub .
+
+icons:GitHub otj:alt "GitHub Icon" ;
+  otj:data "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAABl0lEQVR4Xr2UTUtCQRiFtRb2sYl+QnhnoE3t+wEJRRFiLVpUUhTlJvpQMcvMDJNCoj+oiIgi4gciorzNGe4Ml0m7temFhztn3nOO6AU9nn8a32g0IhPcm8afxjccDinO8pTlH9/APfbwmUFzFgaDAaV5wRX44DcL1Mz1+3265++/Bn7kzCJvr9ejOH+T4AyuWI4i1jPF1gp0IZ437FXvnF7knWWL50yYeV7S7XZdUV7kkNdNnU6HLnlOA+2G6ddlrVaLIvxFcsoyBO3GCUvrDLTq8jabTTrjWckReyRoNw6slM5Ao0eWNRoNOuYZSVh8IrQbYfakM9CqzFOv1+mQpzXQbph+9TUxS7vsjvZ5ikJWQj5rtdpEsFcgh7yzbKZardIef6AgS9D1zqc8h1iScK+Axr0T3CPvLMP48VaCPEmVSmUsW1ZM7hX2W/SbRRj8gKvtdpu2eUKyaUWpXC5rNoRWO/jgt3NjZ0qwXCqVKCCCAeuWcFasCx1gUXmGz/a7Dv4NVorFIpng3t7/eaYFs4J5+wk9cb4A1hWVC9XCe3kAAAAASUVORK5CYII=" .
+
+<https://www.linkedin.com/in/nickkpope> a otj:SocialAccount ;
+  rdfs:label "LinkedIn" ;
+  foaf:username "nickkpope" ;
+  foaf:icon icons:LinkedIn .
+
+icons:LinkedIn otj:alt "LinkedIn Icon" ;
+  otj:data "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAAZElEQVR4XtWUQQrAMBAC8/J8LI9rk0NBXLMNMVAqeFAG2dOWMlTbZfvY0ONQOMaACuCK/zFmG4O6DDNre2ym78feuO2xaa8AhDinvQIQ4pz2CkCIc9orACHOac+Q5VA4PvYgu25ukKrSJb+yGQAAAABJRU5ErkJggg==" .
+
