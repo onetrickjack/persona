@@ -1,1 +1,0 @@
-ruby/3.3.0/gems/jekyll-rdf-3.2.0/lib/jekyll-rdf.rb
