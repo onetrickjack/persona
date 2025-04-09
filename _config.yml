@@ -20,8 +20,6 @@
 
 # TODO: Need to set up the base route to do persona so that links work between local and deployed instances
 
-destination: ../_persona_site
-
 title: Nick Pope
 email: nickkpope+ghp@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
