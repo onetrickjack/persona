@@ -1,0 +1,3 @@
+---
+BUNDLE_PATH: "_plugins/"
+BUNDLE_WITH: "jekyll_plugins"

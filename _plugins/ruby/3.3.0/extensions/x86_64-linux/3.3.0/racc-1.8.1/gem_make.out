@@ -1,0 +1,18 @@
+current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-3f8703 sitelibdir\=./.gem.20250409-2279612-3f8703 clean
+
+current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-3f8703 sitelibdir\=./.gem.20250409-2279612-3f8703
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-3f8703 sitelibdir\=./.gem.20250409-2279612-3f8703 install
+install -c -p -m 755 cparse.so ./.gem.20250409-2279612-3f8703/racc
+
+current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-3f8703 sitelibdir\=./.gem.20250409-2279612-3f8703 clean
