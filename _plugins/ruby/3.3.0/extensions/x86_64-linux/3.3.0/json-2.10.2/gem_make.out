@@ -9,16 +9,16 @@ checking for whether -std=c99 is accepted as CFLAGS... yes
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-lyhgtx sitelibdir\=./.gem.20250409-2326447-lyhgtx clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-yxuaip sitelibdir\=./.gem.20250409-2368581-yxuaip clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-lyhgtx sitelibdir\=./.gem.20250409-2326447-lyhgtx
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-yxuaip sitelibdir\=./.gem.20250409-2368581-yxuaip
 compiling parser.c
 linking shared-object json/ext/parser.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-lyhgtx sitelibdir\=./.gem.20250409-2326447-lyhgtx install
-install -c -p -m 755 parser.so ./.gem.20250409-2326447-lyhgtx/json/ext
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-yxuaip sitelibdir\=./.gem.20250409-2368581-yxuaip install
+install -c -p -m 755 parser.so ./.gem.20250409-2368581-yxuaip/json/ext
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/json-2.10.2/ext/json/ext/parser
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-lyhgtx sitelibdir\=./.gem.20250409-2326447-lyhgtx clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-yxuaip sitelibdir\=./.gem.20250409-2368581-yxuaip clean

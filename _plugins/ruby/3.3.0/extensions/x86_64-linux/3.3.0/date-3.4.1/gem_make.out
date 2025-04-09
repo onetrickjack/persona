@@ -6,10 +6,10 @@ checking for altzone in time.h with  -Werror... no
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-m53qng sitelibdir\=./.gem.20250409-2326447-m53qng clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-dv8hzb sitelibdir\=./.gem.20250409-2368581-dv8hzb clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-m53qng sitelibdir\=./.gem.20250409-2326447-m53qng
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-dv8hzb sitelibdir\=./.gem.20250409-2368581-dv8hzb
 compiling date_core.c
 compiling date_parse.c
 compiling date_strftime.c
@@ -17,8 +17,8 @@ compiling date_strptime.c
 linking shared-object date_core.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-m53qng sitelibdir\=./.gem.20250409-2326447-m53qng install
-install -c -p -m 755 date_core.so ./.gem.20250409-2326447-m53qng
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-dv8hzb sitelibdir\=./.gem.20250409-2368581-dv8hzb install
+install -c -p -m 755 date_core.so ./.gem.20250409-2368581-dv8hzb
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/date-3.4.1/ext/date
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-m53qng sitelibdir\=./.gem.20250409-2326447-m53qng clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-dv8hzb sitelibdir\=./.gem.20250409-2368581-dv8hzb clean

@@ -28,17 +28,17 @@ checking for RB_WARN_CATEGORY_DEPRECATED in ruby.h... yes
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-y7dcxu sitelibdir\=./.gem.20250409-2326447-y7dcxu clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-lc5ls6 sitelibdir\=./.gem.20250409-2368581-lc5ls6 clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-y7dcxu sitelibdir\=./.gem.20250409-2326447-y7dcxu
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-lc5ls6 sitelibdir\=./.gem.20250409-2368581-lc5ls6
 compiling bigdecimal.c
 compiling missing.c
 linking shared-object bigdecimal.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-y7dcxu sitelibdir\=./.gem.20250409-2326447-y7dcxu install
-install -c -p -m 755 bigdecimal.so ./.gem.20250409-2326447-y7dcxu
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-lc5ls6 sitelibdir\=./.gem.20250409-2368581-lc5ls6 install
+install -c -p -m 755 bigdecimal.so ./.gem.20250409-2368581-lc5ls6
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/bigdecimal-3.1.9/ext/bigdecimal
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-y7dcxu sitelibdir\=./.gem.20250409-2326447-y7dcxu clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-lc5ls6 sitelibdir\=./.gem.20250409-2368581-lc5ls6 clean

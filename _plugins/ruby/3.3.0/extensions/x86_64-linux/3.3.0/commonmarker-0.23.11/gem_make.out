@@ -3,10 +3,10 @@ current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/ge
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-g3zt61 sitelibdir\=./.gem.20250409-2326447-g3zt61 clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-cg4fb4 sitelibdir\=./.gem.20250409-2368581-cg4fb4 clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-g3zt61 sitelibdir\=./.gem.20250409-2326447-g3zt61
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-cg4fb4 sitelibdir\=./.gem.20250409-2368581-cg4fb4
 compiling arena.c
 compiling autolink.c
 compiling blocks.c
@@ -63,8 +63,8 @@ compiling xml.c
 linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-g3zt61 sitelibdir\=./.gem.20250409-2326447-g3zt61 install
-install -c -p -m 755 commonmarker.so ./.gem.20250409-2326447-g3zt61/commonmarker
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-cg4fb4 sitelibdir\=./.gem.20250409-2368581-cg4fb4 install
+install -c -p -m 755 commonmarker.so ./.gem.20250409-2368581-cg4fb4/commonmarker
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/commonmarker-0.23.11/ext/commonmarker
-make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-g3zt61 sitelibdir\=./.gem.20250409-2326447-g3zt61 clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2368581-cg4fb4 sitelibdir\=./.gem.20250409-2368581-cg4fb4 clean
