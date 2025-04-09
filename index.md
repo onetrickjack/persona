@@ -17,17 +17,16 @@ While I've found great success as a generalist, I also know the value and necess
 If you need a generalist, or a specialist in Information Systems, connect with me on [LinkedIn](www.linkedin.com/in/nickkpope). I'd love to chat.
 
 # Portfolio
-
 If it isn't immediately apparent this is a bog-standard GitHub blog. One day I'll write and run a proper website, but that day is not this day. This will look pretty ugly for a while as I convert, redact, and update my work.
 
+## Resume
 
-| Resume | Skills | Topics |
-|:-|-|-|
-| [Webpage](./Work_History) | [Dunning-Kruger Map](./Skills.md#dunning-kruger-skills-map)| [Design](./Topics/Design.md) |
-| [PDF (Dark)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf) | [List-of-Lists](./Skills.md#list-of-lists-of-skills) | [System Architecture](./Topics/System_Design.md) |
-| [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_light.pdf) | [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/details/skills/) | [ICT<->VFX Terms](./Topics/Recruiters_Guide_to_Hiring_VFX_Engineers.md) |
+#### Custom Generic
 
+* [PDF (Dark)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf)
+* [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_light.pdf)
 
+#### Data-driven
 
 {% assign query = '
 SELECT *
@@ -43,18 +42,23 @@ SELECT *
         {% if page.rdf.iri == result.sub.iri %}
         <li>
             <a href="{{ page.url | relative_url }}">{{ result.label }}</a>
-            <font size=1>a {{ result.type }}</font>
         </li>
         {% endif %}
     {% endfor %}
 {% endfor %}
 </ul>
 
+## Skills
+* [LinkedIn Skills](https://www.linkedin.com/in/nickkpope/details/skills/)
+* [Dunning-Kruger Map](./Skills.md#dunning-kruger-skills-map)
+* [List-of-Lists*](./Skills.md#list-of-lists-of-skills)
 
-<ul>
+## Featured Topics
+* [ICT<->VFX Terms](./Topics/Recruiters_Guide_to_Hiring_VFX_Engineers.md)
+* [Design](./Topics/Design.md)
+* [System Architecture](./Topics/System_Design.md)
 
-</ul>
+<br/>
 
-
-
+---
 

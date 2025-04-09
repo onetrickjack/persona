@@ -14,7 +14,7 @@ This is a big one. It covers pretty much every Thing. In my book, its a pattern 
 
 ## The Ship of Theseus
 
-![An Ancient Greek Pottery Depiction of the Ship of Theseus](/assets/theseus.jpg)
+![An Ancient Greek Pottery Depiction of the Ship of Theseus](/persona/assets/theseus.jpg)
 
 We won't get far discussing Continuity without first introducing the [Ship of
 Theseus](https://en.wikipedia.org/wiki/Ship_of_Theseus) paradox. Go ahead and read that page now and come back!
@@ -25,7 +25,7 @@ Beyond this being a paradox it also shows how important the destination port is.
 
 ## The Chimera
 
-![An aged depiction of a classic chimera.](/assets/ligozzi-chimera.webp)
+![An aged depiction of a classic chimera.](/persona/assets/ligozzi-chimera.webp)
 
 [The Chimera](https://en.wikipedia.org/wiki/Chimera_(mythology)) IS the most bad ass Greek monsters in town. Every pipe's got 'em, some are slain, but most remain.
 

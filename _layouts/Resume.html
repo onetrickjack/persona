@@ -97,7 +97,11 @@ SELECT *
   <h3 itemprop="{{ "as:startTime" | rdf_get }}">
     {{ label }} : {{ start_time  }} - {{ end_time }}
   </h3>
-  <h4></h4>
+  <h4>{{ activity | rdf_property: "otj:role" }}
+    {% assign company = activity | rdf_property: "otj:company" %}
+    {% if company %}
+     @ Company: {{ company }}</h4>
+    {% endif %}
   <br/>
 
   <!-- Attributions -->
