@@ -239,7 +239,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib "gcc -o conftest -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0/x86_64-linux -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0/ruby/backward -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0 -I. -I/usr/local/opt/openssl/include -I/opt/local/include -I/usr/local/include    -O3 -fPIC conftest.c  -L. -L/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -Wl,-rpath,/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -L/usr/local/opt/openssl/lib -Wl,-rpath,/usr/local/opt/openssl/lib -L/opt/local/lib -Wl,-rpath,/opt/local/lib -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -L/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -lruby-3.3.6  -lm -lpthread  -lc"
-/nix/store/22qnvg3zddkf7rbpckv676qpsc2najv9-binutils-2.43.1/bin/ld: /tmp/nix-shell-159230-0/ccyoPcbS.o: in function `t':
+/nix/store/22qnvg3zddkf7rbpckv676qpsc2najv9-binutils-2.43.1/bin/ld: /tmp/nix-shell-159230-0/ccGD1BKW.o: in function `t':
 conftest.c:(.text+0x7): undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
@@ -403,7 +403,7 @@ checked program was:
 /* end */
 
 LD_LIBRARY_PATH=.:/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib "gcc -o conftest -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0/x86_64-linux -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0/ruby/backward -I/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/include/ruby-3.3.0 -I. -I/usr/local/opt/openssl/include -I/opt/local/include -I/usr/local/include    -O3 -fPIC conftest.c  -L. -L/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -Wl,-rpath,/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -L/usr/local/opt/openssl/lib -Wl,-rpath,/usr/local/opt/openssl/lib -L/opt/local/lib -Wl,-rpath,/opt/local/lib -L/usr/local/lib -Wl,-rpath,/usr/local/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed     -Wl,-rpath,/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -L/nix/store/14afs0xh8zaibh5p9drq5xmifgq1rs6r-ruby-3.3.6/lib -lruby-3.3.6  -lm -lpthread  -lc"
-/nix/store/22qnvg3zddkf7rbpckv676qpsc2najv9-binutils-2.43.1/bin/ld: /tmp/nix-shell-159230-0/ccnRiQko.o: in function `t':
+/nix/store/22qnvg3zddkf7rbpckv676qpsc2najv9-binutils-2.43.1/bin/ld: /tmp/nix-shell-159230-0/cc8D2uJv.o: in function `t':
 conftest.c:(.text+0x7): undefined reference to `rb_enable_interrupt'
 collect2: error: ld returned 1 exit status
 checked program was:

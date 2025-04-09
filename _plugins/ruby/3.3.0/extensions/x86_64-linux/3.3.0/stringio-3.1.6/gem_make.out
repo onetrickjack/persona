@@ -3,16 +3,16 @@ current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/ge
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/stringio-3.1.6/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-chju5b sitelibdir\=./.gem.20250409-2279612-chju5b clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-e5crmz sitelibdir\=./.gem.20250409-2326447-e5crmz clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/stringio-3.1.6/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-chju5b sitelibdir\=./.gem.20250409-2279612-chju5b
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-e5crmz sitelibdir\=./.gem.20250409-2326447-e5crmz
 compiling stringio.c
 linking shared-object stringio.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/stringio-3.1.6/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-chju5b sitelibdir\=./.gem.20250409-2279612-chju5b install
-install -c -p -m 755 stringio.so ./.gem.20250409-2279612-chju5b
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-e5crmz sitelibdir\=./.gem.20250409-2326447-e5crmz install
+install -c -p -m 755 stringio.so ./.gem.20250409-2326447-e5crmz
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/stringio-3.1.6/ext/stringio
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-chju5b sitelibdir\=./.gem.20250409-2279612-chju5b clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-e5crmz sitelibdir\=./.gem.20250409-2326447-e5crmz clean

@@ -3,17 +3,17 @@ current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/ge
 creating Makefile
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-z6tpeq sitelibdir\=./.gem.20250409-2279612-z6tpeq clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-vqwo02 sitelibdir\=./.gem.20250409-2326447-vqwo02 clean
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-z6tpeq sitelibdir\=./.gem.20250409-2279612-z6tpeq
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-vqwo02 sitelibdir\=./.gem.20250409-2326447-vqwo02
 compiling mapper.cpp
 compiling rubymain.cpp
 linking shared-object fastfilereaderext.so
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-z6tpeq sitelibdir\=./.gem.20250409-2279612-z6tpeq install
-install -c -p -m 755 fastfilereaderext.so ./.gem.20250409-2279612-z6tpeq
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-vqwo02 sitelibdir\=./.gem.20250409-2326447-vqwo02 install
+install -c -p -m 755 fastfilereaderext.so ./.gem.20250409-2326447-vqwo02
 
 current directory: /home/nickp/dev/one_trick_jack/persona/_plugins/ruby/3.3.0/gems/eventmachine-1.2.7/ext/fastfilereader
-make DESTDIR\= sitearchdir\=./.gem.20250409-2279612-z6tpeq sitelibdir\=./.gem.20250409-2279612-z6tpeq clean
+make DESTDIR\= sitearchdir\=./.gem.20250409-2326447-vqwo02 sitelibdir\=./.gem.20250409-2326447-vqwo02 clean

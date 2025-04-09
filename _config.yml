@@ -36,8 +36,7 @@ github_username:  nickkpope
 # Build settings
 theme: jekyll-theme-tactile
 plugins:
-  - jekyll-feed
-  # - jekyll-rdf
+  - jekyll-rdf
 
 jekyll_rdf:
   path: "_data/graph.ttl"
