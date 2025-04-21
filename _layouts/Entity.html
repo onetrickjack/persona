@@ -1,0 +1,25 @@
+---
+layout: default
+title: Entity
+description: "A thing with properties shown below."
+rdf_prefix_path: _data/prefixes.sparql
+---
+{{ page.rdf }}
+{% assign query = '
+SELECT *
+{
+    ?resourceUri ?pred ?obj .
+}' %}
+{% assign properties =  page.rdf | sparql_query: query %}
+<table>
+  {% for prop in properties %}
+    <tr>
+      <td><a href="{{ prop.pred }}">{{ prop.pred | split: "#" | last }}</a></td>
+      <td>{% if prop.obj.iri contains "http" %}
+        <a href="{{ prop.obj }}"> {{prop.obj }}</a>
+      {% else %}
+      {{ prop.obj }}
+      {% endif %}</td>
+    </tr>
+  {% endfor %}
+</table>

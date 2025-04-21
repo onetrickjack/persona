@@ -98,9 +98,13 @@ SELECT *
     {{ label }} : {{ start_time  }} - {{ end_time }}
   </h3>
   <h4>{{ activity | rdf_property: "otj:role" }}
-    {% assign company = activity | rdf_property: "otj:company" %}
-    {% if company %}
-     @ Company: {{ company }}</h4>
+    {% assign company = activity | rdf_property: "cv:employedIn" %}
+    {% if company == nil %}
+      {% assign company = activity | rdf_property: "cv:studiedIn" %}
+    {% endif %}
+    {% assign company_code = company | rdf_property: "rdfs:label" %}
+    {% if company_code %}
+    @ <a href="{{ company | split: site.otj_resource_split | last }}">{{ company_code }}</a></h4>
     {% endif %}
   <br/>
 

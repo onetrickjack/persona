@@ -54,6 +54,7 @@ SELECT *
 * [List-of-Lists*](./Skills.md#list-of-lists-of-skills)
 
 ## Featured Topics
+* [Projects](./Projects)
 * [ICT<->VFX Terms](./Topics/Recruiters_Guide_to_Hiring_VFX_Engineers.md)
 * [Design](./Topics/Design.md)
 * [System Architecture](./Topics/System_Design.md)

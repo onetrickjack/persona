@@ -31,6 +31,7 @@ url: "onetrickjack.github.io" # the base hostname & protocol for your site, e.g.
 # twitter_username: jekyllrb
 github_username:  nickkpope
 repository: 'onetrickjack/persona'
+otj_resource_split: 'onetrickjack.github.io'
 
 
 # Build settings
@@ -47,6 +48,7 @@ jekyll_rdf:
   # restriction: "SELECT ?resourceUri WHERE { ?resourceUri ?p ?o . }"
   class_template_mappings:
     "https://onetrickjack.github.io/persona/resume#Resume": "Resume.html"
+    "https://onetrickjack.github.io/2025/04/ns#Entity": "Entity.html"
     "http://xmlns.com/foaf/0.1/Person": "Person.html"
     "https://www.w3.org/ns/activitystreams#IntransitiveActivity": "Event.html"
   instance_template_mappings:
