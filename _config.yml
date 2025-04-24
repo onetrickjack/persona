@@ -32,6 +32,7 @@ url: "onetrickjack.github.io" # the base hostname & protocol for your site, e.g.
 github_username:  nickkpope
 repository: 'onetrickjack/persona'
 otj_resource_split: 'onetrickjack.github.io'
+google_analytics: 'G-LT96CCBX61'
 
 
 # Build settings
