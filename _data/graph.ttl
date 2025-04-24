@@ -201,6 +201,12 @@ evt:2020_01_01 a as:IntransitiveActivity ;
              "Functional Programming" ;
   otj:blurb '''
 Retrofit the devops workflows for software deployment to improve workflows and improve system reliability. Helped address (massive) gaps in documentation which lead to Semantic Web research.
+
+A lot of the research I did revolved around [data integration and warehousing](/persona/Projects/MrX_Data_Warehousing_Research). I was able to
+pull Shotgrid and MPC AMS data into a plain text RDF and load into Dgraph to enable
+GraphQL querying from a native database. The extensibility of the platform showed
+volumes when I could also index the Mr X codebase and do regex search across the whole
+stack within milliseconds.
 ''' .
 
 evt:2018_12_01 a as:IntransitiveActivity ;
@@ -246,6 +252,8 @@ evt:2017_03_01 a as:IntransitiveActivity ;
   a cv:WorkHistory ;
   rdfs:label "🔼 Promoted" ;
   as:actor etr:Nick_Pope ;
+  as:endTime "2017/03/01" ;
+  as:startTime "2016/09/01" ;
   cv:startTime "2017/03/01" ;
   cv:endTime "2018/12/01" ;
   otj:role "Lead Software Developer" ;
@@ -259,6 +267,8 @@ evt:2017_03_01 a as:IntransitiveActivity ;
              "Software Management" ;
   otj:blurb '''
 Lead a team of 6 working on high-scale show support and dev. The site’s 1,200 artists worked on as many as 15 concurrent shows in collaboration with other 3 MPC sites and external VFX vendors.
+
+I developed a [templated automation strategy](/persona/Topics/Templating_vs_Abstraction) to ingest over 300 assets for Ghost in the Shell. It was later adopted for ingesting pre-vis for Godzilla and then Megascan assets for Jumanji. We also did extensive work on scattering workflows leveraging a combination of USD point instancers and Alembic point clouds for rapid scatter update rendering.
 ''' .
 
 etr:Project_BFB a otj:Project ;
@@ -315,9 +325,9 @@ evt:2014_07_01_Finished_Education a as:IntransitiveActivity ;
   a cv:Education ;
   rdfs:label "🎓 Graduated" ;
   as:actor etr:Nick_Pope ;
-  as:startTime "2009/08/01" ;
+  cv:startTime "2009/08/01" ;
   cv:eduStartDate "2009/08/01" ;
-  as:endTime "2014/07/01" ;
+  cv:endTime "2014/07/01" ;
   cv:eduEndDate "2014/07/01" ;
   cv:studiedIn etr:University_Brigham_Young_University_Provo ;
   otj:role "Student" ;

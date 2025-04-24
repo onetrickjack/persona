@@ -91,8 +91,8 @@ SELECT *
 {% assign persons_activities_rs =  person | sparql_query: persons_activities_query %}
 {% for activity_rs in persons_activities_rs %}
   {% assign activity = activity_rs.sub %}
-  {% assign start_time = activity | rdf_property: "as:startTime" %}
-  {% assign end_time = activity | rdf_property: "as:endTime" %}
+  {% assign start_time = activity | rdf_property: "cv:startTime" %}
+  {% assign end_time = activity | rdf_property: "cv:endTime" %}
   {% assign label = activity | rdf_property: "rdfs:label", nil, true | join: " / " %}
   <h3 itemprop="{{ "as:startTime" | rdf_get }}">
     {{ label }} : {{ start_time  }} - {{ end_time }}
