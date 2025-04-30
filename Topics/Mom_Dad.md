@@ -1,3 +1,8 @@
+---
+layout: Topic
+title: Mom-Dad
+description: ""
+---
 ##### Mom-Dad
 <br>
 A stay-at-home dad where the mom is working full time.

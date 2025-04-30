@@ -52,15 +52,10 @@ SELECT *
 * [Dunning-Kruger Map](./Skills.md#dunning-kruger-skills-map)
 * [List-of-Lists*](./Skills.md#list-of-lists-of-skills)
 
-## Featured Topics
+## Dig deeper
 
-* [Continuity](./Topics/Continuity.md)
-* [Design](./Topics/Design.md)
 * [Projects](./Projects)
-* [System Architecture](./Topics/System_Design.md)
-* [Templating vs Abstraction](./Topics/Templating_vs_Abstraction.md)
-* [VFX -> ICT](./Topics/Unifying_VFX_Terms_with_ICT.md)
-
+* [Topics](./Topics)
 <br/>
 
 ---
