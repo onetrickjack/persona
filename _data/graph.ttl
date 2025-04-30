@@ -150,14 +150,14 @@ evt:2023_05_01 a as:IntransitiveActivity ;
              "Strategy",
              "DevOps" ;
   otj:blurb '''
-Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul; we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
+Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major [Pipeline overhaul](/persona/Projects/MPC_AMS_Touchpoints); we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
 ''' .
 
 evt:2023_05_01_Product_Management a otj:MoreSpecificActivity ;
   rdfs:subClassOf evt:2023_05_01 ;
   reso:domain reso:Product_Management ;
   otj:blurb '''
-Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major Pipeline overhaul; we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
+Worked on product [strategies](/persona/Topics/Strategy#managing-model-hierarchy-manager-management) for a major [Pipeline overhaul](/persona/Projects/MPC_AMS_Touchpoints); we aimed to change from a static world-view to a more dynamically resolved loading paradigm. Refactored a flagship product and reduced the codebase by 5 thousand lines.
 
 While the project was running we had a few changes in Head of Pipeline. While this lead to a few jarring pivots, I was lent on the most to keep the project continuity going. One of my favorite parts was doing the [Product Analysis and User Stories](/persona/projects/Nexus_User_Stories). It required a lot of effort to locate, understand, and compile the workflows for certain tools but was well worth it as it showed that most people didn't have the full picture.
 

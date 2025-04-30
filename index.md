@@ -23,8 +23,7 @@ If it isn't immediately apparent this is a bog-standard GitHub blog. One day I'l
 
 #### Custom Generic
 
-* [PDF (Dark)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_dark.pdf)
-* [PDF (Printable)](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_light.pdf)
+* [PDF](https://raw.githubusercontent.com/onetrickjack/persona/refs/heads/main/resume_2025_v02.pdf)
 
 #### Data-driven
 
@@ -54,10 +53,13 @@ SELECT *
 * [List-of-Lists*](./Skills.md#list-of-lists-of-skills)
 
 ## Featured Topics
-* [Projects](./Projects)
-* [ICT<->VFX Terms](./Topics/Recruiters_Guide_to_Hiring_VFX_Engineers.md)
+
+* [Continuity](./Topics/Continuity.md)
 * [Design](./Topics/Design.md)
+* [Projects](./Projects)
 * [System Architecture](./Topics/System_Design.md)
+* [Templating vs Abstraction](./Topics/Templating_vs_Abstraction.md)
+* [VFX -> ICT](./Topics/Unifying_VFX_Terms_with_ICT.md)
 
 <br/>
 
