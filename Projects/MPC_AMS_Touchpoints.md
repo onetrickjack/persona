@@ -1,3 +1,7 @@
+---
+title: MPC AMS Touchpoints
+description: Resolving a pipeline's static world-view
+---
 # Introduction
 
 For my final two years at MPC I was directly involved in guiding and architect-ing a massive project to move our proprietary Asset Management System Tessa from a static version-to-version reference to a version-to-asset style of version-less references.
