@@ -52,7 +52,7 @@ SELECT *
 * [Dunning-Kruger Map](./Skills.md#dunning-kruger-skills-map)
 * [List-of-Lists*](./Skills.md#list-of-lists-of-skills)
 
-## Dig deeper
+## Dig a little deeper
 
 * [Projects](./Projects)
 * [Topics](./Topics)
