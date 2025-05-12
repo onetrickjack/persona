@@ -1,16 +1,18 @@
 ---
-layout: default
+layout: Topic
 title: Entity
 description: "A thing with properties shown below."
 rdf_prefix_path: _data/prefixes.sparql
 ---
-{{ page.rdf }}
+<h5>{{ page.rdf }}</h5>
+<br/>
 {% assign query = '
 SELECT *
 {
     ?resourceUri ?pred ?obj .
 }' %}
 {% assign properties =  page.rdf | sparql_query: query %}
+<!-- Page data -->
 <table>
   {% for prop in properties %}
     <tr>
@@ -23,3 +25,56 @@ SELECT *
     </tr>
   {% endfor %}
 </table>
+
+<pre>{{ page.rdf_prefixes }}</pre>
+<div id="chart"></div>
+<script>
+var page = {
+{% for prop in properties %}
+  "{{ prop.pred }}": "{{ prop.obj }}"{% if forloop.last == false %},{% endif %}
+{% endfor %}
+};
+var width = 620;
+var height = 500;
+var svg = d3.select("#chart").append("svg")
+    .attr("width", width)
+    .attr("height", height);
+
+let pageId = ["{{ page.rdf.iri }}"];
+svg
+  .selectAll('circle')
+  .data(pageId)
+  .join('circle')
+  .attr('cx', width/2)
+  .attr('cy', height/2)
+  .attr('r', 10)
+  .attr('fill', 'grey')
+
+svg
+  .selectAll('text')
+  .data(pageId)
+  .join('text')
+  .attr('x', function(d, i) {
+    return width/2 - d.length * 3
+  })
+  .attr('y', width/2)
+  .text(function(d, i){
+    return d
+  })
+
+<!-- svg -->
+<!--   .selectAll('text') -->
+<!--   //.data(Object.keys(page)) -->
+<!--   .data([]) -->
+<!--   .join('text') -->
+<!--   .attr('x', function(d, i) { -->
+<!--     return i * 50 + 50 -->
+<!--   }) -->
+<!--   .attr('y', function(d, i) { -->
+<!--     return i * 50 + 50 -->
+<!--   }) -->
+<!--   .text(function (d, i) { -->
+<!--     return d -->
+<!--   }) -->
+
+</script>
